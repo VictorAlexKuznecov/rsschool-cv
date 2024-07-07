@@ -1,12 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    Hello World
-  </body>
+    <link rel="icon" href="./img/favicon/favicon.ico">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container __container">
+        <div class="header__top">
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#profile">PROFILE</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#code">CODE</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#progects">PROJECTS</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#education">EDUCATION</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#skills">SKILLS</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#languages">LANGUAGES</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#contacts">CONTACTS</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="header__content">
+          <div class="header__avatar">
+            <img class="header__image" src="./img/header/moto_live.jpg" alt="avatar" >
+          </div>
+          <div class="header__body">
+            <h1 class="header__title">Victor <br> Kuznecov</h1>
+            <h2 class="header__subtitle">FRONT END DEVELOPER</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__content content">
+        <div class="content__container __container">
+          <div class="content__body">
+            <div class="content__colums">
+              <article class="content__profile profile">
+                <h2 class="profile__title title" id="profile">PROFILE</h2>
+                <p class="profile__text text">I work as a logistician. I really need in activities where I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.</p>
+              </article>
+              <article class="content__code code">
+                <h2 class="code__title title" id="code">CODE</h2>
+                <pre>
+                  <code>
+function between (a, b) {
+const r = [];
+for (let i = a; i &lt;= b; i++) {
+r.push(i);
+}
+return r;
+}
+                  </code>
+                </pre>
+              </article>
+              <div class="content__progects progects">
+                <h2 class="progects__title title" id="progects">PROJECTS</h2>
+                <div class="progects__body">
+                  <a class="progects__link" href="https://victoralexkuznecov.github.io/Landing-Growth/index.html" >Portfolio - Landing Growth</a>
+                </div>
+              </div>
+              <article class="content__education education">
+                <h2 class="education__title title" id="education">EDUCATION</h2>
+                <h3 class="education__subtitle subtitle">The University of Moscow</h3>
+                <p class="education__text text">Plekhanov Russian University of Economics. Qualification economist-manager. Сompleted the Crisis Management program</p>
+                <h3 class="education__subtitle subtitle">Belarusian State Academy of Communications</h3>
+                <p class="education__text text">Qualification - Telecommunications Technician</p>
+              </article>
+            </div>
+            <div class="content__colums">
+              <article class="content__skills skills">
+                  <h2 class="skills__title title" id="skills">SKILLS</h2>
+                  <ul class="skills__list">
+                      <li class="skills__item">Figma</li>
+                      <li class="skills__item">HTML5</li>
+                      <li class="skills__item">CSS3</li>
+                  </ul>
+              </article>
+              <article class="content__languages languages">
+                  <h2 class="languages__title title" id="languages">LANGUAGES</h2>
+                  <ul class="languages__list">
+                      <li class="languages__item">Russian - Native language</li>
+                      <li class="languages__item">English - A2</li>
+                  </ul>
+              </article>
+              <article class="content__contacts contacts">
+                  <h2 class="contacts__title title" id="contacts">CONTACTS</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item website">
+                            <a class="contacts__link" href="https://github.com/VictorAlexKuznecov" target="_blank">https://github.com/VictorAlexKuznecov</a>
+                        </li>
+                        <li class="contacts__item mail">
+                            <a class="contacts__link" href="mailto:victoralexkuznecov@gmail.com" target="_blank">victoralexkuznecov@gmail.com</a>
+                        </li>
+                        <li class="contacts__item phone">
+                            <a class="contacts__link" href="tel:+923134212445">+92 313 4212 445</a>
+                        </li>
+                    </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container __container">
+        <div class="footer__row">
+          <div class="footer__yers">©&nbsp;2024</div>
+           <div class="footer__github github">
+              <a class="github__links" href="https://github.com/VictorAlexKuznecov" target="_blank">
+                <img class="github__logo" src="./img/footer/logo_github.svg" alt="github">
+              </a>
+            </div>
+            <div class="footer__rsshool rsshool">
+              <a class="rsshool__link" href="https://rs.school/courses/javascript-ru">
+                <img class="rsshool__logo" src="./img/footer/rs_school_logo.svg" alt="rsshool-logo" >
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </div>
+</body>
 </html>
