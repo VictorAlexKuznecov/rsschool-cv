@@ -18,3 +18,7 @@
    return r;
    }
    ```
+6. ##### Education:
+   - Belarusian State Academy of Communications
+7. ##### Languages:
+   - English - A2
